@@ -7057,6 +7057,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Default off"
 		(exclude_from_sim no)
@@ -7399,6 +7500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25669f3-1fc7-49ef-afec-db3b51738dab")
+	)
+	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6069d02-1921-4c43-a978-8672fb1edc2b")
 	)
 	(junction
 		(at 273.05 158.75)
@@ -8846,6 +8953,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 60.96) (xy 62.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693ec53f-594e-4f48-92a3-f9e77f2e3a83")
+	)
+	(wire
+		(pts
 			(xy 180.34 49.53) (xy 180.34 55.88)
 		)
 		(stroke
@@ -9596,6 +9713,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 55.88) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90c6ec8-b9e2-4c25-a633-eea3db2734e0")
+	)
+	(wire
+		(pts
 			(xy 33.02 25.4) (xy 33.02 30.48)
 		)
 		(stroke
@@ -9746,7 +9873,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 62.23 60.96)
+			(xy 58.42 60.96) (xy 59.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -15725,6 +15852,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 59.69 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4addae3-63d4-494b-b5c8-173a6a047986")
+		(property "Reference" "#FLG01"
+			(at 59.69 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7c44f4a-e3a2-47b3-9661-1b1544209580")
+		)
+		(instances
+			(project ""
+				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 158.75 0)
 		(unit 1)
@@ -17125,7 +17318,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "15pF"
 			(at 176.53 67.818 90)
 			(effects
 				(font
@@ -17160,7 +17353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1549"
+		(property "LCSC" "C1548"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -17816,7 +18009,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "15pF"
 			(at 176.53 62.738 90)
 			(effects
 				(font
@@ -17851,7 +18044,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1549"
+		(property "LCSC" "C1548"
 			(at 171.45 64.77 0)
 			(effects
 				(font
