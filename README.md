@@ -1,6 +1,7 @@
 # TouCAN Probe
 
 A compact USB 2.0 to CAN/RS‑485/RS‑422 hardware probe for interfacing and debugging CAN networks and differential serial buses. Designed in KiCad 9.
+Firmware is here: <https://github.com/AndersBNielsen/TouCAN_fw>
 
 ![TouCAN Probe](image.png)
 
@@ -57,13 +58,15 @@ From `production/bom.csv`:
 - CAN I/O: DE‑9 (male) with `CAN_H` and `CAN_L`; USB‑C provides data connection to host.
 - RS‑485/RS‑422: Routing and driver enable/receive enable pins exposed via headers/jumpers.
 
-If JP3 is shorted to GND at reset, USB is CDC USART1 for RS422/485.
-If JP3 in unconnected, USB is GS_USB CAN
+If JP4 is closed at reset, USB is CDC USART1 for RS422/485.
+If JP4 in open, USB is GS_USB CAN
 
-RS-485: Default
+Jumpers can be moved into any position after reset. 
+
+RS-422: Default
 Full duplex RS-422: Short JP3 & JP4
 
-RS422/485 can be used in CAN mode using external USB-to-UART via USART1
+RS422/485 can be used in CAN mode using external USB-to-UART via USART1 pins (PB7 is RX and PB6 is TX)
 
 ## Status
 Hardware files are provided; software/firmware will be licensed and released later.
