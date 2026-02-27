@@ -7229,10 +7229,10 @@
 		)
 		(uuid "534b91f2-7def-4174-b08a-934f2065b5bb")
 	)
-	(text_box "If JP3 is shorted to GND at reset, USB is CDC USART1 for RS422/485.\nIf JP3 in unconnected, USB is GS_USB CAN\n\nRS-485: Default\nFull duplex RS-422: Short JP3 & JP4\n\nRS422/485 can be used in CAN mode using external USB-to-UART via USART1"
+	(text_box "If JP4 is closed(shorted to GND) at reset, USB is CDC USART1 for RS422/485.\nIf JP4 is open, USB is GS_USB CAN\n\nRS-485: Default - open JP4/JP3\nFull duplex RS-422: Short/close JP3 & JP4\n\nRS422/485 can be used in CAN mode using external USB-to-UART via USART1\n\nIf JP4 is closed, PB7 (RX) and PB6 (TX) can be used as USB-to-UART\n\nConnect B0 to 3v3 to flash new firmware using DFU-util - otherwise to GND"
 		(exclude_from_sim no)
-		(at 15.748 140.716 0)
-		(size 65.278 51.308)
+		(at 15.748 136.144 0)
+		(size 65.278 60.452)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
