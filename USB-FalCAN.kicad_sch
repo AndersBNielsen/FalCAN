@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FalCAN Probe")
-		(rev "1")
+		(rev "0")
 		(company "ABNielsen.com")
 	)
 	(lib_symbols
@@ -14408,7 +14408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 161.29 170.18 0)
 			(effects
 				(font
