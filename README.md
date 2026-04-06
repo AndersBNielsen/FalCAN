@@ -1,9 +1,9 @@
-# TouCAN Probe
+# FalCAN Probe
 
 A compact USB 2.0 to CAN/RS‑485/RS‑422 hardware probe for interfacing and debugging CAN networks and differential serial buses. Designed in KiCad 9.
-Firmware is here: <https://github.com/AndersBNielsen/TouCAN_fw>
+Firmware is here: <https://github.com/AndersBNielsen/FalCAN_fw>
 
-![TouCAN Probe](image.png)
+![FalCAN Probe](image.png)
 
 ## Overview
 - MCU: STM32F042C6Tx (USB FS device)
@@ -16,16 +16,16 @@ Firmware is here: <https://github.com/AndersBNielsen/TouCAN_fw>
 - Jumpers/headers for boot, CAN, RS‑422/485 routing
 
 Project metadata
-- Title: TouCAN Probe
+- Title: FalCAN Probe
 - Company: ABNielsen.com
 - Revision: 0
 - Board: 4‑layer FR4, ~1.6 mm 
 
 ## Repository Structure
-- `USB-TouCAN.kicad_sch` — KiCad schematic
-- `USB-TouCAN.kicad_pcb` — KiCad PCB layout
-- `USB-TouCAN.kicad_pro` — KiCad project file
-- `USB-TouCAN.kicad_prl` — KiCad project local settings
+- `USB-FalCAN.kicad_sch` — KiCad schematic
+- `USB-FalCAN.kicad_pcb` — KiCad PCB layout
+- `USB-FalCAN.kicad_pro` — KiCad project file
+- `USB-FalCAN.kicad_prl` — KiCad project local settings
 - `DSUB-9_... .kicad_mod` — Custom footprint for DE‑9 female connector
 - `production/` — Fabrication outputs
   - `bom.csv` — Bill of Materials (includes LCSC part numbers)
