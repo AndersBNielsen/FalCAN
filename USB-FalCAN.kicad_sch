@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FalCAN Probe")
-		(rev "0")
+		(rev "1")
 		(company "ABNielsen.com")
 	)
 	(lib_symbols
@@ -7388,6 +7388,12 @@
 		(uuid "80c4d3f0-3e2d-4bbc-8d4e-163a0bf8573e")
 	)
 	(junction
+		(at 191.77 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817c9244-077e-4606-886c-b52f00d4ce20")
+	)
+	(junction
 		(at 267.97 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7618,16 +7624,6 @@
 			(type default)
 		)
 		(uuid "00ec60d2-3395-4ed5-9b2d-77bdc262d819")
-	)
-	(wire
-		(pts
-			(xy 190.5 46.99) (xy 191.77 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015559bb-65df-4374-b9f0-d8b101f8bb98")
 	)
 	(wire
 		(pts
@@ -7902,6 +7898,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 53.34) (xy 182.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ee72d1-87e9-453b-a3ee-24bb00551fe3")
+	)
+	(wire
+		(pts
 			(xy 35.56 123.19) (xy 36.83 123.19)
 		)
 		(stroke
@@ -8159,6 +8165,16 @@
 			(type default)
 		)
 		(uuid "29641d6f-f0e1-4505-9761-446dc5ef6218")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 191.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4b43b4-ea90-43d9-881b-2d20526e1c1f")
 	)
 	(wire
 		(pts
@@ -9133,6 +9149,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777a447c-3da5-43d9-90ce-2a395b083b1d")
+	)
+	(wire
+		(pts
 			(xy 151.13 154.94) (xy 153.67 154.94)
 		)
 		(stroke
@@ -9210,6 +9236,16 @@
 			(type default)
 		)
 		(uuid "7ebcd6e7-89ff-4da4-b03d-c7dbcb71b71c")
+	)
+	(wire
+		(pts
+			(xy 181.61 53.34) (xy 181.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4d609c-72ba-43b6-bcf6-8a24d7322ce0")
 	)
 	(wire
 		(pts
@@ -14043,6 +14079,75 @@
 			(project "PhaseLatchMini"
 				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 186.69 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bda2183-a815-49b5-8d6b-ec7f2d99d4fa")
+		(property "Reference" "JP5"
+			(at 186.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 186.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8caaf526-d478-415c-a6ad-e4060a43a4d2")
+		)
+		(pin "1"
+			(uuid "0f4e4b38-5248-4e5a-9812-35d83be3324a")
+		)
+		(instances
+			(project "USB-FalCAN"
+				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
