@@ -3,6 +3,17 @@
 A compact USB 2.0 to CAN/RS‑485/RS‑422 hardware probe for interfacing and debugging CAN networks and differential serial buses. Designed in KiCad 9.
 Firmware is here: <https://github.com/AndersBNielsen/FalCAN_fw>
 
+## Can I buy one?
+You can buy a FalCAN here: https://www.imania.dk/index.php?cPath=204&sort=5a&language=en
+
+## Video overview
+https://youtu.be/pHMQbOrLfP4
+
+[![FalCAN on Youtube](https://img.youtube.com/vi/pHMQbOrLfP4/0.jpg)](https://www.youtube.com/watch?v=pHMQbOrLfP4)
+
+## Blog post
+https://abnielsen.com/falcan
+
 ![FalCAN Probe](image.png)
 
 ## Overview
