@@ -732,13 +732,25 @@
         "uuid": "26096f25-a87e-4f6d-a99b-624957e9ad57"
       }
     ],
-    "used_designators": "#PWR37-38,J11-12,U2,U6",
+    "used_designators": "C12,C15-17,JP6,TP1-3,R10,R15-18,R20-29,#PWR10,#PWR29-31,#PWR37-49,J10-14,U1-2,U6-8",
     "variants": []
   },
   "sheets": [
     [
       "26096f25-a87e-4f6d-a99b-624957e9ad57",
       "USB-FalCAN"
+    ],
+    [
+      "9822f886-7d7c-4a8d-9432-f38dfb004f71",
+      "CAN1"
+    ],
+    [
+      "1a5453f2-2452-47a2-9836-43155a3e3471",
+      "CAN2"
+    ],
+    [
+      "d1b681e3-3598-4665-bb50-46c3b91c3a1a",
+      "CAN3"
     ]
   ],
   "text_variables": {},
