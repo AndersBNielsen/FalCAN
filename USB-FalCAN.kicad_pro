@@ -535,7 +535,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
@@ -732,7 +732,7 @@
         "uuid": "26096f25-a87e-4f6d-a99b-624957e9ad57"
       }
     ],
-    "used_designators": "C12,C15-17,JP6,TP1-3,R10,R15-18,R20-29,#PWR10,#PWR29-31,#PWR37-49,J10-14,U1-2,U6-8",
+    "used_designators": "R10,R15-18,R20-29,JP6-8,TP1-3,U1-2,U6-8,C12,C15-17,#PWR10,#PWR29-31,#PWR37-49,J10-14",
     "variants": []
   },
   "sheets": [
