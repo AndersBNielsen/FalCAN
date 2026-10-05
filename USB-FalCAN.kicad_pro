@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.254,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.254,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -81,24 +81,7 @@
           "width": 0.1
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|202495000|70610000|34a70a8c-f7e2-4c15-9875-45b5ccb2b8af|6a99f898-f0b5-4a32-8837-360a0d4fd2e5",
-          ""
-        ],
-        [
-          "hole_clearance|202495000|70610000|4da61c91-a6f1-4253-9832-d418fed531bb|6a99f898-f0b5-4a32-8837-360a0d4fd2e5",
-          ""
-        ],
-        [
-          "hole_clearance|202495000|76710000|07855ecc-6697-4ccc-a026-93360cd3a1dd|a00dada4-67b4-4d73-9678-e0b5e0fa21cd",
-          ""
-        ],
-        [
-          "hole_clearance|202495000|76710000|5a477334-14ba-4015-a845-c98182072b5d|a00dada4-67b4-4d73-9678-e0b5e0fa21cd",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -732,7 +715,7 @@
         "uuid": "26096f25-a87e-4f6d-a99b-624957e9ad57"
       }
     ],
-    "used_designators": "R10,R15-18,R20-29,JP6-8,TP1-3,U1-2,U6-8,C12,C15-17,#PWR10,#PWR29-31,#PWR37-49,J10-14",
+    "used_designators": "C12,C15-18,#PWR10,#PWR29-31,#PWR37-49,R2,R10,R15-18,R20-29,JP6-8,U1-2,U6-8,TP1-3,J10-14",
     "variants": []
   },
   "sheets": [

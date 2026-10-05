@@ -8114,6 +8114,24 @@
 		(uuid "d184811a-5d6e-4ca1-a079-9cc05024b2c3")
 	)
 	(junction
+		(at 96.52 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6ef026f-2f25-42d5-9a0b-1eda24c3d019")
+	)
+	(junction
+		(at 96.52 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc5d2b63-cdbd-4b8e-89be-61c96179168a")
+	)
+	(junction
+		(at 190.5 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df8ec7fb-4f80-485f-98d3-cec662a4639d")
+	)
+	(junction
 		(at 121.92 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8450,6 +8468,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 35.56) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d9fc93-011d-4b68-88fd-a57a6c00e2e2")
+	)
+	(wire
+		(pts
 			(xy 64.77 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -8537,6 +8565,16 @@
 			(type default)
 		)
 		(uuid "19c0a82f-4012-4f51-be3d-f1ec123c39f4")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 193.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab1d20b-c2c5-49b4-ae4d-fbaca0a3b6c1")
 	)
 	(wire
 		(pts
@@ -9461,6 +9499,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 33.02) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c943888-208f-4e22-908a-f88e7156bafe")
+	)
+	(wire
+		(pts
 			(xy 66.04 173.99) (xy 66.04 175.26)
 		)
 		(stroke
@@ -9468,6 +9516,16 @@
 			(type default)
 		)
 		(uuid "5dea227a-f058-485b-b459-eb40675568f1")
+	)
+	(wire
+		(pts
+			(xy 106.68 24.13) (xy 96.52 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f698b0f-fb18-4a46-bc0d-4872bcc52b08")
 	)
 	(wire
 		(pts
@@ -10011,7 +10069,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 93.98) (xy 185.42 93.98)
+			(xy 176.53 93.98) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10158,6 +10216,16 @@
 			(type default)
 		)
 		(uuid "9ae9f52e-2cb4-457b-adaf-5accb5a2d610")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aff185b-794d-46d6-b209-c02ac31f9a8c")
 	)
 	(wire
 		(pts
@@ -10528,6 +10596,16 @@
 			(type default)
 		)
 		(uuid "b814394f-4988-4b10-b207-b8af84208b63")
+	)
+	(wire
+		(pts
+			(xy 106.68 27.94) (xy 106.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a1e178-e900-4ae0-a9af-e2428c18246d")
 	)
 	(wire
 		(pts
@@ -11018,6 +11096,16 @@
 			(type default)
 		)
 		(uuid "e3b4dd8b-8d26-42d8-bcd0-1a3f67a87996")
+	)
+	(wire
+		(pts
+			(xy 190.5 106.68) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3eb6517-de17-4228-ac32-4fd37e16a729")
 	)
 	(wire
 		(pts
@@ -12330,7 +12418,7 @@
 		(uuid "985a0ee8-9580-4de9-83a3-f73a03f511d6")
 	)
 	(label "PB8"
-		(at 179.07 93.98 0)
+		(at 176.53 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16789,6 +16877,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b25dd70-7bcd-477f-ac78-3bf2cecfd0d1")
+		(property "Reference" "C18"
+			(at 109.22 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 109.22 31.7562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f04f8206-c60f-4745-b86e-645fe3c97dfd")
+		)
+		(pin "2"
+			(uuid "fc6f9f88-e91f-4824-91c3-0815627423ee")
+		)
+		(instances
+			(project "USB-FalCAN"
+				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 134.62 0)
 		(unit 1)
@@ -18957,7 +19138,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 93.98 270)
+		(at 186.69 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18967,7 +19148,7 @@
 		(dnp no)
 		(uuid "b86f9766-d54a-4946-a89c-d946266a865e")
 		(property "Reference" "R1"
-			(at 184.658 92.71 90)
+			(at 182.118 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18977,7 +19158,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 93.98 90)
+			(at 186.69 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18987,7 +19168,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.23 92.202 90)
+			(at 186.69 92.202 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18998,7 +19179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 93.98 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19009,7 +19190,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 93.98 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19020,7 +19201,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 189.23 93.98 90)
+			(at 186.69 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19746,6 +19927,96 @@
 			(project "USB-FalCAN"
 				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6eb6eb6-ca63-4a0a-b44b-2be5f6c1f211")
+		(property "Reference" "R2"
+			(at 189.23 107.442 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 190.5 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 188.722 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 190.5 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "882c83a2-f3c9-440b-b2b9-aa867af25b78")
+		)
+		(pin "1"
+			(uuid "f095e810-a3c8-4df8-8458-f0cb31b8f898")
+		)
+		(instances
+			(project "USB-FalCAN"
+				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -21399,6 +21670,84 @@
 			(project "USB-FalCAN"
 				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd78c01d-ad1d-4c64-a549-d95c0f552b90")
+		(property "Reference" "#PWR049"
+			(at 190.5 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36e04bb7-c881-4112-be2c-9e5d245609ed")
+		)
+		(instances
+			(project "USB-FalCAN"
+				(path "/26096f25-a87e-4f6d-a99b-624957e9ad57"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
